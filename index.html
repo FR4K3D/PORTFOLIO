@@ -1,116 +1,304 @@
+
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">    
+
+    <title>FR4K3D | Animation & Digital Art</title>
+
+    <link rel="icon" type="image/png" href="LOGO_FINAL_EN_NEGRO.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    <div class="contenedor"></div>
 
-    <div class="texto">
-
-        <h1>MI NOMBRE ES FR4K3D</h1>
-
-        <p>SIENTETE LIBRE DE VER MI PORTFOLIO!</p>
-
-        <p>EL PRIMERO ES MI PORTFOLIO DE 2D</p>
-
-        <p>EL SEGUNDO ES MI PORTFOLIO DE 3D</p>
-
-        <a href="https://al030134312120.myportfolio.com/" class="boton-redireccion">
-            Portfolio en Adobe Portfolio
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#inicio" class="brand">
+            <img src="LOGO_FINAL_EN_NEGRO.png" alt="FR4K3D Logo">
+            <span>FR4K3D</span>
         </a>
 
-        <br>
+        <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#experimentos">Experimentos</a>
+            <a href="#sobre-mi">Sobre mí</a>
+        </nav>
 
-        <a href="https://www.behance.net/carlorodrigu1" class="boton-redireccion">
-            Portfolio en Adobe Behance
-        </a>
-
-    </div>
+        <a href="#contacto" class="header-contact">Hablemos ↗</a>
+    </header>
 
 
-    <div class="caja-proyectos">
-        
-        <h2>PROYECTOS DESTACADOS</h2>
+    <main>
 
-        <p>
-            ESTOS SON ALGUNOS DE LOS PROYECTOS QUE HE REALIZADO
-        </p>
-    </div>
+        <!-- HERO -->
+        <section class="hero" id="inicio">
 
-    <div class="proyectos-grid">
-        <div class="card caine-digital-circus">
-            <a href="https://al030134312120.myportfolio.com/caine-digital-circus" class="boton-redireccion">
-                <img src="DIGITAL_CIRCUS_CANE.png" alt="CAINE DIGITAL CIRCUS">
+            <div class="hero-content">
+                <p class="eyebrow">DISEÑO · ANIMACIÓN · EXPERIMENTACIÓN</p>
 
-                <h3>CAINE DIGITAL CIRCUS</h3>
-    
+                <h1>
+                    IMAGINATION<br>
+                    IN <span>MOTION.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Exploro ideas a través del diseño, la animación
+                    y la creación de experiencias visuales digitales.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="button-primary">
+                        Explorar proyectos ↘
+                    </a>
+
+                    <a href="sobremi.html" class="button-secondary">
+                        Conóceme
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="LOGO_FINAL_EN_NEGRO.png" alt="Identidad visual FR4K3D">
+                <div class="hero-orbit"></div>
+                <span class="hero-coordinate">25° 41' 00.0" N</span>
+            </div>
+
+            <div class="hero-bottom">
+                <span>PORTFOLIO 2026</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- ÁREAS -->
+        <section class="disciplines">
+            <p class="eyebrow">WHAT I DO</p>
+
+            <div class="discipline-list">
+                <span>3D ART</span>
+                <span>2D ANIMATION</span>
+                <span>CONCEPT ART</span>
+                <span>VISUAL DESIGN</span>
+                <span>DIGITAL EXPERIENCES</span>
+            </div>
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section class="projects section" id="proyectos">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">TRABAJOS SELECCIONADOS / 01</p>
+                    <h2>Proyectos <span>destacados.</span></h2>
+                </div>
+
+                <p>
+                    Una selección de trabajos de modelado,
+                    diseño y exploración visual.
+                </p>
+            </div>
+
+
+            <div class="project-grid">
+
+                <!-- CAINE -->
+                <a class="project-card project-large"
+                   href="https://al030134312120.myportfolio.com/caine-digital-circus"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <div class="project-image">
+                        <img src="DIGITAL_CIRCUS_CANE.png" alt="Proyecto 3D de Caine">
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Caine</h3>
+                            <p>Character Design · 3D Art</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                </a>
+
+
+                <!-- HALCON MILENARIO -->
+                <a class="project-card"
+                   href="https://www.behance.net/carlorodrigu1"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <div class="project-image">
+                        <img src="HALCON_MILENARIO.png" alt="Modelado 3D del Halcón Milenario">
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Halcón Milenario</h3>
+                            <p>3D Modeling · Hard Surface</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                </a>
+
+
+                <!-- LUFFY -->
+                <a class="project-card"
+                   href="https://al030134312120.myportfolio.com/luffy-gear-5-transformacion"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <div class="project-image">
+                        <img src="LUFFY_GEAR_5.png" alt="Ilustración de Luffy Gear 5">
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Luffy Gear 5</h3>
+                            <p>Illustration · Fan Art</p>
+                        </div>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="external-portfolio">
+                <span>¿Quieres explorar más trabajos?</span>
+                <a href="https://www.behance.net/carlorodrigu1"
+                   target="_blank" rel="noopener noreferrer">
+                    Visita mi Behance ↗
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIMENTOS DIGITALES -->
+        <section class="experiments section" id="experimentos">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">BEYOND THE FRAME / 02</p>
+                    <h2>Experimentos <span>digitales.</span></h2>
+                </div>
+
+                <p>
+                    También me interesa explorar la tecnología,
+                    la programación y las experiencias interactivas.
+                </p>
+            </div>
+
+
+            <div class="experiment-grid">
+
+                <a class="experiment-card"
+                   href="https://www.behance.net/gallery/251042941/PORTFOLIO-UXUI"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <img src="PORTFOLIO_UXUI.png" alt="Proyecto de diseño UX UI">
+
+                    <div class="experiment-info">
+                        <span>01 / UX · UI DESIGN</span>
+                        <h3>Diseño de experiencias</h3>
+                        <span class="experiment-arrow">↗</span>
+                    </div>
+                </a>
+
+
+                <a class="experiment-card"
+                   href="https://www.behance.net/gallery/251133911/NOVA-PLAYER-EN-PROCESO"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <img src="NOVA_PLAYER.png" alt="Proyecto Nova Player">
+
+                    <div class="experiment-info">
+                        <span>02 / UI · DEVELOPMENT</span>
+                        <h3>Nova Player</h3>
+                        <span class="experiment-arrow">↗</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MI -->
+        <section class="about section" id="sobre-mi">
+
+            <div class="about-label">
+                <p class="eyebrow">UN POCO ACERCA DE MÍ / 03</p>
+                <span>DESIGNER IN PROGRESS.</span>
+            </div>
+
+            <div class="about-content">
+                <h2>
+                    No se trata solamente de crear imágenes.
+                    Se trata de <span>dar vida a las ideas.</span>
+                </h2>
+
+                <p>
+                    Soy estudiante de Diseño Gráfico y Animación,
+                    interesado en el modelado 3D, la animación,
+                    la ilustración y el desarrollo de experiencias digitales.
+                    Me gusta experimentar, aprender nuevas herramientas
+                    y transformar conceptos en proyectos visuales.
+                </p>
+
+                <a href="sobremi.html" class="button-primary">
+                    Más sobre mí ↗
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="contact section" id="contacto">
+
+            <p class="eyebrow">¿TIENES UN PROYECTO EN MENTE?</p>
+
+            <h2>Let's create<br><span>something different.</span></h2>
+
+            <a href="mailto:TU_CORREO@EJEMPLO.COM" class="button-primary">
+                Contactar ↗
             </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#inicio" class="footer-brand">FR4K3D.</a>
+
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/fr4k3d/"
+               target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+
+            <a href="https://www.tiktok.com/@jrfkirng"
+               target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+
+            <a href="https://www.behance.net/carlorodrigu1"
+               target="_blank" rel="noopener noreferrer">Behance ↗</a>
         </div>
 
-        <div class="card halcon-milenario">
-            <a href="https://www.behance.net/gallery/245576277/HALCON-MILENARIO" class="boton-redireccion">
-                <img src="HALCON_MILENARIO.png" alt="HALCON MILENARIO">
+        <p>© 2026 FR4K3D · Designed and developed by me.</p>
 
-                <h3>HALCON MILENARIO</h3>
-    
-            </a>
-        </div>
+    </footer>
 
-        <div class="card luffy-gear-5-transformacion">
-            <a href="https://al030134312120.myportfolio.com/luffy-gear-5-transformacion" class="boton-redireccion">
-                <img src="LUFFY_GEAR_5.png" alt="LUFFY GEAR 5 TRANSFORMATION">
 
-                <h3>LUFFY GEAR 5</h3>
-    
-            </a>
-        </div>
-
-    </div>
-    <div class = "caja-proyectos">
-        <h2>PROYECTOS DE PROGRAMACIÓN</h2>
-
-        <p>
-            ESTOS SON ALGUNOS DE LOS PROYECTOS DE PROGRAMACIÓN QUE HE REALIZADO
-        </p>
-    </div>
-    <div class="proyectos-programacion-grid">
-        <div class="card">
-            <a href="https://www.behance.net/gallery/251042941/PORTFOLIO-UXUI" class="boton-redireccion">
-                <img src="PORTFOLIO_UXUI.png" alt="PORTFOLIO UX/UI">
-
-                <h3>PORTFOLIO UX/UI</h3>
-    
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://www.behance.net/gallery/251133911/NOVA-PLAYER-EN-PROCESO" class="boton-redireccion">
-                <img src="NOVA_PLAYER.png" alt="NOVA PLAYER">
-
-                <h3>NOVA PLAYER</h3>
-            </a>
-        </div>
-    </div>
-    <div class="redes-fijas">
-
-        <a href="https://www.instagram.com/fr4k3d?igsh=MTZzcXRoNm95N3poaQ==" target="_blank">
-            <img src="instagram_icono.png" alt="INSTAGRAM">
-        </a>
-
-        <a href="https://www.tiktok.com/@jrfkirng?_r=1&_t=ZS-96EQ68YxciD" target="_blank">
-            <img src="tiktok_icono.png" alt="TIKTOK">
-        </a>
-
-    </div>
-
-    <a href="sobremi.html" class="boton-sobre-mi">
-        SOBRE MÍ
-    </a>
+    <!-- CHATBOT -->
+    <script src="chatbot-loader.js"></script>
 
 </body>
 </html>
+<!-- <script src="chatbot-loader.js"></script> -->

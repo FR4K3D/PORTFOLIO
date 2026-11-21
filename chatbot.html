@@ -1,0 +1,123 @@
+
+<div id="fr4k3d-chatbot">
+
+    <!-- BOTÓN FLOTANTE -->
+    <button id="chatbot-toggle" aria-label="Abrir asistente FR4K3D">
+        <img src="LOGO_FINAL_EN_NEGRO.png" alt="FR4K3D">
+    </button>
+
+
+    <!-- VENTANA DEL CHAT -->
+    <div id="chatbot-window" class="chatbot-hidden">
+
+        <!-- HEADER -->
+        <div class="chatbot-header">
+
+            <div class="chatbot-brand">
+
+                <img
+                    src="LOGO_FINAL_EN_NEGRO.png"
+                    alt="FR4K3D Logo"
+                    class="chatbot-logo"
+                >
+
+                <div class="chatbot-brand-info">
+                    <h3>FR4K3D Assistant</h3>
+                    <span>
+                        <i class="chatbot-status"></i>
+                        En línea
+                    </span>
+                </div>
+
+            </div>
+
+            <button id="chatbot-close" aria-label="Cerrar chatbot">
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- MENSAJES -->
+        <div id="chatbot-messages" class="chatbot-messages">
+
+            <!-- BIENVENIDA -->
+            <div class="chatbot-welcome">
+
+                <img
+                    src="chatbot_fr4k3d_saludo.gif"
+                    alt="Personaje de bienvenida FR4K3D"
+                    class="chatbot-character"
+                >
+
+                <div class="chatbot-message bot-message">
+                    ¡Hey! 👋 Bienvenido a FR4K3D.
+
+                    <br><br>
+
+                    Soy tu asistente virtual. Estoy aquí para ayudarte
+                    a explorar proyectos, conocer mis habilidades
+                    y descubrir un poco más sobre mi trabajo creativo.
+
+                    <br><br>
+
+                    ¿Qué te gustaría conocer?
+                </div>
+
+            </div>
+
+
+            <!-- BOTONES RÁPIDOS -->
+            <div class="chatbot-quick-options">
+
+                <button class="quick-option" data-message="Proyectos 3D">
+                    🎨 Proyectos 3D
+                </button>
+
+                <button class="quick-option" data-message="Animación 2D">
+                    🎬 Animación 2D
+                </button>
+
+                <button class="quick-option" data-message="Concept Art">
+                    ✏️ Concept Art
+                </button>
+
+                <button class="quick-option" data-message="Sobre mí">
+                    👤 Sobre mí
+                </button>
+
+                <button class="quick-option" data-message="Contacto">
+                    ✉️ Contacto
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ÁREA DE ESCRITURA -->
+        <form id="chatbot-form" class="chatbot-input-area">
+
+            <input
+                type="text"
+                id="chatbot-input"
+                placeholder="Escribe tu mensaje..."
+                autocomplete="off"
+                aria-label="Escribe tu mensaje"
+            >
+
+            <button type="submit" id="chatbot-send" aria-label="Enviar mensaje">
+                ➤
+            </button>
+
+        </form>
+
+
+        <!-- FOOTER -->
+        <div class="chatbot-footer">
+            POWERED BY FR4K3D
+        </div>
+
+    </div>
+
+</div>
