@@ -1,0 +1,88 @@
+
+/* =========================================
+   FR4K3D - SOBRE MÍ
+========================================= */
+
+.pagina-sobre-mi {
+    min-height: 100vh;
+    padding: 120px 8% 80px;
+    background: var(--bg, #0b0b0f);
+    color: var(--text, #f5f5f5);
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.pagina-sobre-mi .contenedor-sobre-mi {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* TÍTULO */
+
+.pagina-sobre-mi h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 800;
+    letter-spacing: -4px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.pagina-sobre-mi h1 span {
+    color: var(--accent, #a78bfa);
+}
+
+/* TEXTO */
+
+.pagina-sobre-mi p {
+    max-width: 750px;
+    color: #b9b9c5;
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+/* SUBTÍTULOS */
+
+.pagina-sobre-mi h2 {
+    font-size: 1.7rem;
+    margin: 45px 0 18px;
+    color: var(--accent, #a78bfa);
+}
+
+/* BOTÓN */
+
+.boton-redireccion {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+    padding: 14px 22px;
+    border: 1px solid var(--accent, #a78bfa);
+    color: var(--text, #f5f5f5);
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.boton-redireccion:hover {
+    background: var(--accent, #a78bfa);
+    color: #0b0b0f;
+    transform: translateY(-4px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+    .pagina-sobre-mi {
+        padding: 100px 6% 60px;
+    }
+
+    .pagina-sobre-mi h1 {
+        letter-spacing: -2px;
+    }
+
+    .pagina-sobre-mi p {
+        font-size: 0.95rem;
+    }
+}
